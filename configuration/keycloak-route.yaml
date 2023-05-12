@@ -1,5 +1,5 @@
 # httpbin-route.yaml
-apiVersion: apisix.apache.org/v2beta2
+apiVersion: apisix.apache.org/v2
 kind: ApisixRoute
 metadata:
   name: httpserver-route
@@ -9,7 +9,7 @@ spec:
   - name: keycloak_rules
     match:
       hosts:
-      - sso.demo.jpgouin.pro
+      - keycloak.192.168.59.106.nip.io
       paths:
       - /*
     backends:

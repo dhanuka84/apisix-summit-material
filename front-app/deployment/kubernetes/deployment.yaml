@@ -23,17 +23,17 @@ spec:
         resources: {}
         env:
           - name: postAuthorUri
-            value: https://demo-api.demo.jpgouin.pro/api/author
+            value: http://demo-api.demo.jpgouin.pro/api/author
           #- name: extpostAuthorUri
           #  value: http://demo-api.demo.jpgouin.pro/api/author
           - name: postBookUri
-            value: https://demo-api.demo.jpgouin.pro/api/book
+            value: http://demo-api.demo.jpgouin.pro/api/book
           - name: authorsUri
-            value: https://demo-api.demo.jpgouin.pro/api/authors
+            value: http://demo-api.demo.jpgouin.pro/api/authors
           #- name: extauthorsUri
           #  value: http://demo-api.demo.jpgouin.pro/api/authors
           - name: booksUri
-            value: https://demo-api.demo.jpgouin.pro/api/books
+            value: http://demo-api.demo.jpgouin.pro/api/books
           #- name: extbooksUri
           #  value: http://demo-api.demo.jpgouin.pro/api/books
           #- name: extpostBookUri

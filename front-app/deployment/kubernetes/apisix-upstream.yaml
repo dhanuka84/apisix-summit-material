@@ -1,9 +1,11 @@
-apiVersion: apisix.apache.org/v1
+apiVersion: apisix.apache.org/v2
 kind: ApisixUpstream
 metadata:
   name: foo
   namespace: poc-front-app
 spec:
-  ports:
+  loadbalancer:
+    type: roundrobin
+  portLevelSettings:
   - port: 80
   
